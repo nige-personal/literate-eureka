@@ -1,0 +1,84 @@
+%h1 Currency Converter
+
+%form(action = "/convert" method = "post")
+  %fieldset
+    %legend
+    Date
+    %label{:for => "Date"} (yyyy-mm-dd):
+    %input#date(name="date")
+
+    From
+    %input#amount(name="amount")
+
+    %select#from(name="from")
+      %option(value="INR") INR
+      %option(value="USD") USD
+      %option(value="JPY") JPY
+      %option(value="GBP") GBP
+      %option(value="BGN") BGN
+      %option(value="CZK") CZK
+      %option(value="DKK") DKK
+      %option(value="HUF") HUF
+      %option(value="PLN") PLN
+      %option(value="RON") RON
+      %option(value="SEK") SEK
+      %option(value="CHF") CHF
+      %option(value="ISK") ISK
+      %option(value="NOK") NOK
+      %option(value="HRK") HRK
+      %option(value="RUB") RUB
+      %option(value="TRY") TRY
+      %option(value="AUD") AUD
+      %option(value="BRL") BRL
+      %option(value="CAD") CAD
+      %option(value="CNY") CNY
+      %option(value="HKD") HKD
+      %option(value="IDR") IDR
+      %option(value="ILS") ILS
+      %option(value="INR") INR
+      %option(value="KRW") KRW
+      %option(value="MXN") MXN
+      %option(value="MYR") MYR
+      %option(value="NZD") NZD
+      %option(value="PHP") PHP
+      %option(value="SGD") SGD
+      %option(value="THB") THB
+      %option(value="eur") EUR
+      %option(value="ZAR") ZAR
+    To
+    %select#to(name="to")
+      %option(value="INR") INR
+      %option(value="USD") USD
+      %option(value="JPY") JPY
+      %option(value="GBP") GBP
+      %option(value="BGN") BGN
+      %option(value="CZK") CZK
+      %option(value="DKK") DKK
+      %option(value="HUF") HUF
+      %option(value="PLN") PLN
+      %option(value="RON") RON
+      %option(value="SEK") SEK
+      %option(value="CHF") CHF
+      %option(value="ISK") ISK
+      %option(value="NOK") NOK
+      %option(value="HRK") HRK
+      %option(value="RUB") RUB
+      %option(value="TRY") TRY
+      %option(value="AUD") AUD
+      %option(value="BRL") BRL
+      %option(value="CAD") CAD
+      %option(value="CNY") CNY
+      %option(value="HKD") HKD
+      %option(value="IDR") IDR
+      %option(value="ILS") ILS
+      %option(value="INR") INR
+      %option(value="KRW") KRW
+      %option(value="MXN") MXN
+      %option(value="MYR") MYR
+      %option(value="NZD") NZD
+      %option(value="PHP") PHP
+      %option(value="SGD") SGD
+      %option(value="THB") THB
+      %option(value="eur") EUR
+      %option(value="ZAR") ZAR
+    %input#convert(type="submit" value="Convert")
