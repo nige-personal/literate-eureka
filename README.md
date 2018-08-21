@@ -14,4 +14,4 @@ bundle exec rackup -p 3000
 ```
 
 # Usage
-The coordinates for Bristol are set as default. Replace with whatever latitude and longitude you like.
+Enter the date in format YYY-MM-DD, enter a number and choose the currencies to convert from and to.
